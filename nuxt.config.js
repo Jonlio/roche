@@ -1,7 +1,7 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-
+  // Base: './' pour npm run generate et deploy/// '/roche/' pour dev
   router: {
     base: './',
     mode: 'hash'
@@ -42,8 +42,8 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt'
   ],
-
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    publicPath: '/nuxt/'
   }
 }

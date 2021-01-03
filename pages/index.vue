@@ -29,7 +29,7 @@ export default {
 
 <style scoped>
 .main-bc {
-  background: url('../assets/fond.webp') no-repeat;
+  background: url('../assets/fond.webP') no-repeat;
   background-size: cover;
   background-position: center;
 }

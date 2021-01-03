@@ -22,7 +22,7 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="../assets/masque.webp"
+        img-src="../assets/masque.webP"
         class="w-50"
       />
 
@@ -32,7 +32,7 @@
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="../assets/travaux.webp" />
+      <b-carousel-slide img-src="../assets/travaux.webP" />
     </b-carousel>
 
     <div class="d-flex justify-content-between p-3">

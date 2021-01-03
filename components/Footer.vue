@@ -2,7 +2,8 @@
   <footer class="d-flex justify-content-around p-3">
     <img src="../assets/icon.png" class="logo test">
     <div class="adresse">
-      <p>Mairie de Rochecorbon <br>
+      <p>
+        Mairie de Rochecorbon <br>
         Place du 8 Mai 1945 <br>
         37210 Rochecorbon <br>
         Tel: 0247525020 <br>

@@ -3,7 +3,7 @@ export default {
   target: 'static',
   // Base: './' pour npm run generate et deploy/// '/roche/' pour dev
   router: {
-    base: './',
+    base: '/roche/',
     mode: 'hash'
   },
 
@@ -34,16 +34,16 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module',
-    'nuxt-imagemin'
+    '@nuxtjs/eslint-module'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
     // Simple usage
     // '@nuxtjs/component-cache',
+    'nuxt-imagemin'
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {

@@ -9,7 +9,8 @@
         <h2>Déconfinement du 15/12</h2>
         <p>15/12/20</p>
         <img src="../assets/confinement.png" alt="" class="w-50 mb-5">
-        <p>COUVRE FEU DE 20H A 6H
+        <p>
+          COUVRE-FEU DE 20H A 6H
           - Instauration d’un couvre-feu de 20h00 à 06h00 du matin à l’exception du réveillon du 24 décembre ;
           - Prolongation pendant 3 semaines de la fermeture des lieux accueillants du public (salles de cinéma, théâtre, musée). Possibilité de réouverture le 7 janvier 2021.
           - Interdiction des rassemblements sur la voie publique.
@@ -60,7 +61,8 @@
         <h2>Déconfinement du 15/12</h2>
         <p>15/12/20</p>
         <img src="../assets/confinement.png" alt="" class="w-50 mb-5">
-        <p>FONDS D'AIDES COVID-19
+        <p>
+          FONDS D'AIDES COVID-19
 
           La mairie vous informe qu’un fonds d’aides aux entreprises artisanales, commerciales et prestataires
           de services a été mis en place par Tours Métropole Val de Loire. Une aide financière, plafonnée à 5 000 €

@@ -1,6 +1,5 @@
 <template>
   <div class="main-bc">
-    <h1>SALUX NETLIFY</h1>
     <Header />
     <div class="main-container">
       <Une />

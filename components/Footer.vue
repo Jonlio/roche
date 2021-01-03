@@ -1,6 +1,6 @@
 <template>
   <footer class="d-flex justify-content-around p-3">
-    <img src="../static/icon.png" class="logo test">
+    <img src="../assets/icon.png" class="logo test">
     <div class="adresse">
       <p>Mairie de Rochecorbon <br>
         Place du 8 Mai 1945 <br>
@@ -10,7 +10,7 @@
         2021-Rochecorbon - Mentions légales- plan du site
       </p>
     </div>
-    <img src="../static/footer.png" alt="">
+    <img src="../assets/footer.png" alt="">
   </footer>
 </template>
 

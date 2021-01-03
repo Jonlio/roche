@@ -22,38 +22,38 @@
       <b-carousel-slide
         caption="First slide"
         text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-        img-src="../static/masque.png"
+        img-src="../assets/masque.png"
         class="w-50"
       />
 
       <!-- Slides with custom text -->
-      <b-carousel-slide img-src="../static/confinement.png" class="w-50">
+      <b-carousel-slide img-src="../assets/confinement.png" class="w-50">
         <h1>Hello world!</h1>
       </b-carousel-slide>
 
       <!-- Slides with image only -->
-      <b-carousel-slide img-src="../static/travaux.jpg" />
+      <b-carousel-slide img-src="../assets/travaux.jpg" />
     </b-carousel>
 
     <div class="d-flex justify-content-between p-3">
       <div class="text-center">
-        <img src="../static/conseil.png" alt="" class="logo rounded-circle shadow">
+        <img src="../assets/conseil.png" alt="" class="logo rounded-circle shadow">
         <p>Conseil Municipal</p>
       </div>
       <div class="text-center">
-        <img src="../static/annuaire.png" alt="" class="logo rounded-circle shadow">
+        <img src="../assets/annuaire.png" alt="" class="logo rounded-circle shadow">
         <p>Annuaire des professionnels</p>
       </div>
       <div class="text-center">
-        <img src="../static/manif.png" alt="" class="logo rounded-circle shadow">
+        <img src="../assets/manif.png" alt="" class="logo rounded-circle shadow">
         <p>Agenda des manifestations</p>
       </div>
       <div class="text-center">
-        <img src="../static/conseil.png" alt="" class="logo rounded-circle shadow">
+        <img src="../assets/conseil.png" alt="" class="logo rounded-circle shadow">
         <p>"La Lanterne" bulletin municipal</p>
       </div>
       <div class="text-center">
-        <img src="../static/conseil.png" alt="" class="logo-2 rounded-circle shadow">
+        <img src="../assets/conseil.png" alt="" class="logo-2 rounded-circle shadow">
         <p>Facture enfance</p>
       </div>
     </div>

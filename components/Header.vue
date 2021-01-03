@@ -1,46 +1,46 @@
 <template>
   <header class="d-flex p-3">
-    <img src="../static/icon.png" class="logo test">
+    <img src="../assets/icon.png" class="logo test">
     <ul class="nav w-100 d-flex align-items-center justify-content-around">
       <li class="nav-item mairie rounded">
         <a class="" href="#">
-          <img src="../static/mairie.png" class="">
+          <img src="../assets/mairie.png" class="">
           <span>Mairie</span>
         </a>
       </li>
       <li class="nav-item habiter rounded">
         <a class="" href="#">
-          <img src="../static/habiter.png" class="">
+          <img src="../assets/habiter.png" class="">
           <span>Habiter</span>
         </a>
       </li>
       <li class="nav-item visiter rounded">
         <a class="" href="#">
-          <img src="../static/visiter.png" class="">
+          <img src="../assets/visiter.png" class="">
           <span>Visiter</span>
         </a>
       </li>
       <li class="nav-item grandir rounded">
         <a class="" href="#">
-          <img src="../static/grandir.png" class="">
+          <img src="../assets/grandir.png" class="">
           <span>Grandir</span>
         </a>
       </li>
       <li class="nav-item bouger rounded">
         <a class="" href="#">
-          <img src="../static/bouger.png" class="">
+          <img src="../assets/bouger.png" class="">
           <span>Bouger</span>
         </a>
       </li>
       <li class="nav-item agenda rounded">
         <a class="" href="#">
-          <img src="../static/agenda.png" class="">
+          <img src="../assets/agenda.png" class="">
           <span>Agenda 21</span>
         </a>
       </li>
       <li class="nav-item liens rounded">
         <a class="" href="#">
-          <img src="../static/liens.png" class="">
+          <img src="../assets/liens.png" class="">
           <span>Liens</span>
         </a>
       </li>

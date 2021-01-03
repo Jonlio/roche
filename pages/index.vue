@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .main-bc {
-  background: url('../static/fond.jpg') no-repeat;
+  background: url('../assets/fond.jpg') no-repeat;
   background-size: cover;
   background-position: center;
 }

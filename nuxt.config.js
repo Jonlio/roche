@@ -42,11 +42,12 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // Simple usage
-    // '@nuxtjs/component-cache',
     'nuxt-imagemin'
+    // '@nuxtjs/component-cache'
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    publicPath: '/nuxt/'
+    publicPath: '/nuxt/',
+    cache: true
   }
 }

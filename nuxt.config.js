@@ -3,7 +3,7 @@ export default {
   target: 'static',
   // Base: './' pour npm run generate et deploy/// '/roche/' pour dev
   router: {
-    base: './',
+    base: '/roche/',
     mode: 'hash'
   },
 
@@ -13,7 +13,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'Site de la mairie de Rochecorbon' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -42,12 +42,13 @@ export default {
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // Simple usage
-    'nuxt-imagemin'
+    'nuxt-imagemin',
+    '@nuxt/content'
     // '@nuxtjs/component-cache'
   ],
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    publicPath: '/nuxt/',
-    cache: true
+    publicPath: '/nuxt/'
   }
 }

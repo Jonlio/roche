@@ -1,3 +1,7 @@
+import path from 'path'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
+import glob from 'glob-all'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -53,25 +57,20 @@ export default {
     analyze: {
       analyzerMode: 'static'
     },
+    extractCSS: true,
     extend (config, { isDev, isClient }) {
-      config.module.rules.forEach((rule) => {
-        if (String(rule.test) === String(/\.(png|jpe?g|gif|svg|webp)$/)) {
-          // add a second loader when loading images
-          rule.use.push({
-            loader: 'image-webpack-loader',
-            options: {
-              svgo: {
-                plugins: [
-                  // use these settings for internet explorer for proper scalable SVGs
-                  // https://css-tricks.com/scale-svg/
-                  { removeViewBox: false },
-                  { removeDimensions: true }
-                ]
-              }
-            }
+      if (!isDev && isClient) {
+        config.plugins.push(
+          new PurgecssPlugin({
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './layouts/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            whitelist: ['html', 'body']
           })
-        }
-      })
+        )
+      }
     }
   }
 }

@@ -3,7 +3,7 @@ export default {
   target: 'static',
   // Base: './' pour npm run generate et deploy/// '/roche/' pour dev
   router: {
-    base: './',
+    base: '/roche/',
     mode: 'hash'
   },
 

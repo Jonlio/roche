@@ -1,6 +1,3 @@
-import path from 'path'
-import PurgecssPlugin from 'purgecss-webpack-plugin'
-import glob from 'glob-all'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
@@ -38,7 +35,8 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    'nuxt-purgecss'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
@@ -56,21 +54,6 @@ export default {
     publicPath: '/nuxt/',
     analyze: {
       analyzerMode: 'static'
-    },
-    extractCSS: true,
-    extend (config, { isDev, isClient }) {
-      if (!isDev && isClient) {
-        config.plugins.push(
-          new PurgecssPlugin({
-            paths: glob.sync([
-              path.join(__dirname, './pages/**/*.vue'),
-              path.join(__dirname, './layouts/**/*.vue'),
-              path.join(__dirname, './components/**/*.vue')
-            ]),
-            whitelist: ['html', 'body']
-          })
-        )
-      }
     }
   }
 }
